@@ -16,6 +16,9 @@ $ racket main.rkt
 
 # code structure
 
+Currently words have to be entered in racket files such as `verbs.rkt` `nouns.rkt` etc. most of the actual program code is contained in `foundations.rkt` and `main.rkt`.
+
+
 * `hiragana.rkt` a dictionary for romaji->hiragana strings
 * `foundations.rkt` functions required for parsing word lists and romaji->hiragana conversion
 * `main.rkt` the IO loop 
