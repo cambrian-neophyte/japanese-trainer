@@ -17,6 +17,6 @@ $ racket main.rkt
 # code structure
 
 * `hiragana.rkt` a dictionary for romaji->hiragana strings
-* foundations.rkt functions required for parsing word lists and romaji->hiragana conversion
+* `foundations.rkt` functions required for parsing word lists and romaji->hiragana conversion
 * `main.rkt` the IO loop 
 * `verbs.rkt` list of verbs japanese->english
