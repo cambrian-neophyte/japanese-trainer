@@ -1,7 +1,4 @@
-#lang racket/base
-(require (only-in racket/list range))
-(require (only-in racket/format ~a))
-(require (only-in racket/list shuffle))
+#lang racket
 (require "hiragana.rkt")
 (require "foundations.rkt")
 (require "verbs.rkt")
@@ -37,7 +34,6 @@
 (define (run-verbs)
   (for ((v (shuffle verbs))) (test v))
   (display "Test finished."))
-(define (j word) (romaji->hiragana word))
 
 
 
